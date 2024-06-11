@@ -6,6 +6,9 @@ import Header from "./Header";
 import { useEffect, useState } from "react";
 import Productcart from "./Productcart";
 import phone1  from './assets/phone-1.png';
+import phone2  from './assets/phone-2.png';
+import phone3  from './assets/phone-3.png';
+import phone4  from './assets/phone-4.png';
 function App() {
   const [product, setProduct] = useState([
     {
@@ -15,19 +18,19 @@ function App() {
       quantity : 1
     },
     {
-      img : "./src/assets/phone-2.png",
+      img : phone2,
       title : "Google Pixel",
       price : 499.99,
       quantity : 1
     },
     {
-      img : "./src/assets/phone-3.png",
+      img : phone3,
       title : "Xiaomi Redmi Note 2",
       price : 699.99,
       quantity : 1
     },
     {
-      img : "./src/assets/phone-4.png",
+      img : phone4,
       title : "Samsung Galaxy S7",
       price : 599.99,
       quantity : 1
