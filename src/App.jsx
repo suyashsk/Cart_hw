@@ -5,11 +5,11 @@ import './App.css'
 import Header from "./Header";
 import { useEffect, useState } from "react";
 import Productcart from "./Productcart";
-
+import phone1  from './assets/phone-1.png';
 function App() {
   const [product, setProduct] = useState([
     {
-      img : "./src/assets/phone-1.png",
+      img:phone1,
       title: "Samsung Galaxy S8",
       price : 399.99,
       quantity : 1
